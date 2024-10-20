@@ -1,0 +1,26 @@
+/* Write your CSS here */
+
+.card-img {
+  width: 56px;
+}
+
+.app-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 15px;
+  padding-left: 26px;
+  padding-right: 26px;
+  padding-bottom: 2px;
+  max-width: 110px;
+  max-height: 134px;
+}
+
+.app-name {
+  font-family: 'Bree Serif';
+  font-size: 13px;
+  text-align: center;
+}

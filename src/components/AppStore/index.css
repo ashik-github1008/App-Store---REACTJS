@@ -1,0 +1,75 @@
+/* Write your CSS here */
+/* * {
+  font-family: 'Bree Serif';
+} */
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, #fff1eb, #dfe2e5, #ace0f9);
+  height: 100vh;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-items-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tab-container {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+.app-items-cards-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  width: 50%;
+  /* padding-left: 0px; */
+}
+
+.heading {
+  font-family: 'Bree Serif';
+  font-size: 38px;
+  font-weight: 600;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 250px;
+  border: 1px solid #7b8794;
+  border-radius: 4px;
+}
+
+.input {
+  padding: 6px;
+  height: 38px;
+  border: none;
+  background-color: transparent;
+  color: #1e293b;
+  font-weight: 500;
+  outline: none;
+}
+
+.search-icon {
+  width: 26px;
+  height: 26px;
+  align-self: center;
+}
